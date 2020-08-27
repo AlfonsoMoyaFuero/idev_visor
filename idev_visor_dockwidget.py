@@ -64,18 +64,18 @@ class IdevDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
         self.list_capa.hide()  # We hide the list of the layer search engine, it will appear when doing search
 
         """ Dashboard widget event connectors """
-        self.rdb_cas.toggled.connect(lambda:self.cambiaIdioma(self.rdb_cas))
-        self.rdb_val.toggled.connect(lambda: self.cambiaIdioma(self.rdb_val))
-        self.txt_toponimia.textChanged.connect(self.busca_toponimo)
-        self.list_toponimia.itemClicked.connect(self.zoomToponimo)
-        self.cmb_capas_base.currentIndexChanged.connect(self.cambiaFondo)
-        self.tree_toc.itemClicked.connect(self.select_capa_toc)
-        self.tree_toc.itemChanged.connect(self.check_capa_tree)
-        self.txt_busca_capa.textChanged.connect(self.busca_capa)
-        self.list_capa.itemClicked.connect(self.select_capa)
-        self.btn_meta.clicked.connect(self.abre_catalogo)
-        self.btn_icv.clicked.connect(self.abre_icv)
-        self.btn_idev.clicked.connect(self.abre_idev)
+        self.rdb_cas.toggled.connect(lambda:self.changeLanguage(self.rdb_cas))
+        self.rdb_val.toggled.connect(lambda: self.changeLanguage(self.rdb_val))
+        self.txt_toponimia.textChanged.connect(self.searchToponym)
+        self.list_toponimia.itemClicked.connect(self.zoomToponym)
+        self.cmb_capas_base.currentIndexChanged.connect(self.changeBaseMap)
+        self.tree_toc.itemClicked.connect(self.selectTocLayer)
+        self.tree_toc.itemChanged.connect(self.checkTreeLayer)
+        self.txt_busca_capa.textChanged.connect(self.searchLayer)
+        self.list_capa.itemClicked.connect(self.selectTreeLayer)
+        self.btn_meta.clicked.connect(self.openCatalog)
+        self.btn_icv.clicked.connect(self.openIcvSite)
+        self.btn_idev.clicked.connect(self.openIdevSite)
 
         """ Layer QTreeWidget Settings  """
 
@@ -83,7 +83,7 @@ class IdevDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
 
         """ We dynamically load the layers in the QtreeWidget at various parent / child levels """
 
-        self.crea_tree()
+        self.createTree()
 
     """ Function to load the initial appearance of the plugin  """
     def setupPlugin(self):
@@ -99,8 +99,8 @@ class IdevDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
 
     """ Function that changes the language of the controls. The languages are Spanish / Valencian """
 
-    def cambiaIdioma(self, b):
-        self.crea_tree()  # Function that changes the language of the controls. The languages are Spanish / Valencian
+    def changeLanguage(self, b):
+        self.createTree()  # Function that changes the language of the controls. The languages are Spanish / Valencian
         self.txt_capa_seleccionada.setEnabled(False)  # Activate the label of the active layer
         self.txt_capa_seleccionada.setText("")  # Claer the text of the label layer name
         self.txt_info_capa.setEnabled(False)  # Desactivate the label of the layer name
@@ -151,7 +151,7 @@ class IdevDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
 
     """  Function for toponymy search. Connection with the IDEV search engine service """
 
-    def busca_toponimo(self):
+    def searchToponym(self):
         # Disable the search with the default help text of the control
         if self.txt_toponimia.text() == 'Busca topónimo, dirección o ref. catastral' or self.txt_toponimia.text() == 'Busca topònim, direcció o ref. cadastral':
             pass
@@ -186,7 +186,7 @@ class IdevDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
 
     """ Function that centers the zoom on the toponym selected from the ListWidget  """
 
-    def zoomToponimo(self):
+    def zoomToponym(self):
         texto = self.list_toponimia.currentItem().text()  # Capture the exact name of the toponym
         text, tipo = texto.split("\t")  # Split the information of the toponym
         self.txt_toponimia.setText(text)  # Write the toponymin the labeltext of search
@@ -208,26 +208,26 @@ class IdevDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
 
     """ Function to load the background base layers  """
 
-    def cambiaFondo(self):
+    def changeBaseMap(self):
         extent = self.canvas.extent()  # Store the actual extent in a variable
         names = [layer.name() for layer in QgsProject.instance().mapLayers().values()]  # Store in a list the names of the layers
         for i in names:  # Unload the layer by name
             if i == 'Contorno autonómico':
-                self.descarga_capa('Contorno autonómico')
+                self.unloadLayerToc('Contorno autonómico')
             if i == 'Ortofoto 2019':
-                self.descarga_capa('Ortofoto 2019')
+                self.unloadLayerToc('Ortofoto 2019')
             if i == 'ESRI Satellite':
-                self.descarga_capa('ESRI Satellite')
+                self.unloadLayerToc('ESRI Satellite')
             if i == 'Capa base Híbrido':
-                self.descarga_capa('Capa base Híbrido')
+                self.unloadLayerToc('Capa base Híbrido')
             if i == 'Capa base Relieve':
-                self.descarga_capa('Capa base Relieve')
+                self.unloadLayerToc('Capa base Relieve')
             if i == 'Capa base Topográfico':
-                self.descarga_capa('Capa base Topográfico')
+                self.unloadLayerToc('Capa base Topográfico')
             if i == 'Capa base Topográfico Básico':
-                self.descarga_capa('Capa base Topográfico Básico')
+                self.unloadLayerToc('Capa base Topográfico Básico')
             if i == 'Capa base Topográfico Gris':
-                self.descarga_capa('Capa base Topográfico Gris')
+                self.unloadLayerToc('Capa base Topográfico Gris')
 
         """ Loading the different base layers in the project  """
 
@@ -376,7 +376,7 @@ class IdevDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
     """ Selecting a layer in the layer tree and activating the catalog button  """
 
     #@QtCore.pyqtSlot(QtWidgets.QTreeWidgetItem, int)
-    def select_capa_toc(self):
+    def selectTocLayer(self):
         i = 0
         for ix in self.tree_toc.selectedIndexes():
             if self.rdb_cas.isChecked() == True:
@@ -398,7 +398,7 @@ class IdevDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
 
     """ Button to open the ICV website   """
 
-    def abre_icv(self):
+    def openIcvSite(self):
         if self.rdb_cas.isChecked() == True:
             webbrowser.open('http://www.icv.gva.es/es/inicio')
         if self.rdb_val.isChecked() == True:
@@ -406,7 +406,7 @@ class IdevDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
 
     """ Button to open the IDEV website   """
 
-    def abre_idev(self):
+    def openIdevSite(self):
         if self.rdb_cas.isChecked() == True:
             webbrowser.open('http://www.idev.gva.es/es/inicio')
         if self.rdb_val.isChecked() == True:
@@ -414,7 +414,7 @@ class IdevDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
 
     """ Button to open the catalog website of the selected layer in the QTreeWidget """
 
-    def abre_catalogo(self):  # The layer name is different in each language, there is a different search in the layer dictionary
+    def openCatalog(self):  # The layer name is different in each language, there is a different search in the layer dictionary
         if self.rdb_cas.isChecked() == True:
             for nombre in capasIDEV:
                 if self.txt_capa_seleccionada.text() == nombre['nombre_cas']:
@@ -426,34 +426,34 @@ class IdevDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
 
     """ Load the layer in the QGIS project whrn check the item in the QTreeWidget """
 
-    def check_capa_tree(self, it, col): # The layer name is different in each language, there is a different search in the layer dictionary
+    def checkTreeLayer(self, it, col): # The layer name is different in each language, there is a different search in the layer dictionary
         if self.rdb_cas.isChecked() == True:
             for nombre in capasIDEV:  # Search in the layer dictionary by spanish name
                 if it.checkState(0) == QtCore.Qt.Checked:
                     if it.text(col) == nombre['nombre_cas']:
-                        self.carga_capa(nombre['url'],nombre['nombre_cas'])  # load the layer Checked in the QGIS project
+                        self.loadLayerToc(nombre['url'], nombre['nombre_cas'])  # load the layer Checked in the QGIS project
                         if nombre['aviso_cas'] != "":
                             msg = QMessageBox.information(self, "Aviso:", nombre['aviso_cas'])  # Show advice if is not null
                             #msg.exec()
                 else:
                     if it.text(col) == nombre['nombre_cas']:
-                        self.descarga_capa(nombre['nombre_cas']) # Unload the layer of the proyect if is unchecked
+                        self.unloadLayerToc(nombre['nombre_cas']) # Unload the layer of the proyect if is unchecked
 
         if self.rdb_val.isChecked() == True:
             for nombre in capasIDEV:  # Search in the layer dictionary by valencian name
                 if it.checkState(0) == QtCore.Qt.Checked:
                     if it.text(col) == nombre['nombre_val']:
-                        self.carga_capa(nombre['url'],nombre['nombre_val'])  # load the layer Checked in the QGIS project
+                        self.loadLayerToc(nombre['url'], nombre['nombre_val'])  # load the layer Checked in the QGIS project
                         if nombre['aviso_val'] != "":
                             msg = QMessageBox.information(self, "Avís:", nombre['aviso_val']) # Show advice if is not null
                             #msg.exec()
                 else:
                     if it.text(col) == nombre['nombre_val']:
-                        self.descarga_capa(nombre['nombre_val'])  # Unload the layer of the proyect if is unchecked
+                        self.unloadLayerToc(nombre['nombre_val'])  # Unload the layer of the proyect if is unchecked
 
     """ Funcion for load a layer in the QGIS project by name and url connection string """
 
-    def carga_capa(self, url, nombre):
+    def loadLayerToc(self, url, nombre):
         layer = QgsRasterLayer(url, nombre, 'wms')  # Create a PyQt layer
         if not layer.isValid():
             print("Capa no válida")
@@ -465,13 +465,13 @@ class IdevDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
 
     """ Funcion for unload a layer in the QGIS project by layers name """
 
-    def descarga_capa(self, nombre):
+    def unloadLayerToc(self, nombre):
         QgsProject.instance().removeMapLayer(QgsProject.instance().mapLayersByName(nombre)[0])  # Unload the layer form the TOC
         iface.mapCanvas().refresh()  # Refresh the projet view in QGIS
 
-        """ Function to dynamically load the layers in the QTreeWidget in the corresponding language """
+    """ Function to dynamically load the layers in the QTreeWidget in the corresponding language """
 
-    def crea_tree(self):
+    def createTree(self):
         self.tree_toc.clear() # Clear the tree
         carto = QTreeWidgetItem(self.tree_toc)  # Create the QtreeWidget
         if self.rdb_cas.isChecked() == True: # Create the fahther and child nodes in spanish
@@ -1519,7 +1519,7 @@ class IdevDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
 
     """ Layer search function in the QtreeWidget """
 
-    def busca_capa(self):
+    def searchLayer(self):
         if self.txt_busca_capa.text() == 'Busca capa...': # Help text
             pass
         else:  # Start the search if the text is not the help text
@@ -1545,7 +1545,7 @@ class IdevDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
     """ Function that when selecting a layer of the QTreeWidget activates the link button with the catalog """
 
     #@QtCore.pyqtSlot(QtWidgets.QTreeWidgetItem, int)
-    def select_capa(self):
+    def selectTreeLayer(self):
         self.tree_toc.clearSelection() # Clear the actual layers selection
         nom_capa = self.list_capa.currentItem().text() # We assign to the variable the selected layer of the QTreeWidget
         for item in self.tree_toc.findItems(nom_capa, Qt.MatchContains | Qt.MatchRecursive):
