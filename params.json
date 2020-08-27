@@ -821,7 +821,7 @@
     "aviso_cas": "",
     "aviso_val": "",
     "metadato": "spaicvRTCV",
-    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=estacio_bus&styles&url=http://terramapas.icv.gva.es/rtcv"
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=XarxaviariaUrbana&styles&url=http://terramapas.icv.gva.es/rtcv"
   },
   {
 	"nombre_cas": "Peaje",
