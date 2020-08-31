@@ -76,6 +76,7 @@ class IdevDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
         self.btn_meta.clicked.connect(self.openCatalog)
         self.btn_icv.clicked.connect(self.openIcvSite)
         self.btn_idev.clicked.connect(self.openIdevSite)
+        self.btn_help.clicked.connect(self.openHelp)
 
         """ Layer QTreeWidget Settings  """
 
@@ -96,6 +97,7 @@ class IdevDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
         self.btn_meta.setIcon(QtGui.QIcon(os.path.dirname(os.path.realpath(__file__)) + '/info_on.png'))
         self.btn_icv.setIcon(QtGui.QIcon(os.path.dirname(os.path.realpath(__file__)) + '/icon.png'))
         self.btn_idev.setIcon(QtGui.QIcon(os.path.dirname(os.path.realpath(__file__)) + '/icon_idev.png'))
+        self.btn_help.setIcon(QtGui.QIcon(os.path.dirname(os.path.realpath(__file__)) + '/help.png'))
 
     """ Function that changes the language of the controls. The languages are Spanish / Valencian """
 
@@ -412,6 +414,12 @@ class IdevDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
         if self.rdb_val.isChecked() == True:
             webbrowser.open('http://www.idev.gva.es/va/inicio')
 
+    def openHelp(self):
+        if self.rdb_cas.isChecked() == True:
+            webbrowser.open(os.path.dirname(os.path.realpath(__file__)) + '/data/help_cast.html')
+        if self.rdb_val.isChecked() == True:
+            webbrowser.open(os.path.dirname(os.path.realpath(__file__)) + '/data/help_val.html')
+
     """ Button to open the catalog website of the selected layer in the QTreeWidget """
 
     def openCatalog(self):  # The layer name is different in each language, there is a different search in the layer dictionary
@@ -437,7 +445,10 @@ class IdevDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
                             #msg.exec()
                 else:
                     if it.text(col) == nombre['nombre_cas']:
-                        self.unloadLayerToc(nombre['nombre_cas']) # Unload the layer of the proyect if is unchecked
+                        try:
+                            self.unloadLayerToc(nombre['nombre_cas']) # Unload the layer of the proyect if is unchecked
+                        except:
+                            print('Capa no cargada:  ' + nombre['nombre_cas'])
 
         if self.rdb_val.isChecked() == True:
             for nombre in capasIDEV:  # Search in the layer dictionary by valencian name
@@ -466,7 +477,10 @@ class IdevDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
     """ Funcion for unload a layer in the QGIS project by layers name """
 
     def unloadLayerToc(self, nombre):
-        QgsProject.instance().removeMapLayer(QgsProject.instance().mapLayersByName(nombre)[0])  # Unload the layer form the TOC
+        try:
+            QgsProject.instance().removeMapLayer(QgsProject.instance().mapLayersByName(nombre)[0])  # Unload the layer form the TOC
+        except:
+            print('capa no valida:  ' + nombre)
         iface.mapCanvas().refresh()  # Refresh the projet view in QGIS
 
     """ Function to dynamically load the layers in the QTreeWidget in the corresponding language """
@@ -949,7 +963,7 @@ class IdevDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
             cataviario4.setCheckState(0, Qt.Unchecked)
             puntokil = QTreeWidgetItem(sistviari)
             puntokil.setFlags(puntokil.flags() | Qt.ItemIsUserCheckable)
-            puntokil.setText(0, "Puntos quilométricos")
+            puntokil.setText(0, "Puntos kilométricos")
             puntokil.setCheckState(0, Qt.Unchecked)
             caminos = QTreeWidgetItem(sistviari)
             caminos.setFlags(puntokil.flags() | Qt.ItemIsUserCheckable)
