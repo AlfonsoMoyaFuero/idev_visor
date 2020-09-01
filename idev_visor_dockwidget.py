@@ -448,7 +448,7 @@ class IdevDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
                         try:
                             self.unloadLayerToc(nombre['nombre_cas']) # Unload the layer of the proyect if is unchecked
                         except:
-                            print('Capa no cargada:  ' + nombre['nombre_cas'])
+                            pass
 
         if self.rdb_val.isChecked() == True:
             for nombre in capasIDEV:  # Search in the layer dictionary by valencian name
@@ -480,7 +480,7 @@ class IdevDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
         try:
             QgsProject.instance().removeMapLayer(QgsProject.instance().mapLayersByName(nombre)[0])  # Unload the layer form the TOC
         except:
-            print('capa no valida:  ' + nombre)
+            pass
         iface.mapCanvas().refresh()  # Refresh the projet view in QGIS
 
     """ Function to dynamically load the layers in the QTreeWidget in the corresponding language """

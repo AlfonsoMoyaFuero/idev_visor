@@ -776,7 +776,7 @@
     "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=24&styles&url=http://carto.icv.gva.es/arcgis/services/tm_infraestructuras/infraestructuras_viarias/MapServer/WmsServer?"
   },
   {
-	"nombre_cas": "Puntos quilométricos",
+	"nombre_cas": "Puntos kilométricos",
     "nombre_val": "Punts quilomètrics",
     "aviso_cas": "",
     "aviso_val": "",

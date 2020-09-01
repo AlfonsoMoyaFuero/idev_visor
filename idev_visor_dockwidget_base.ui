@@ -682,7 +682,7 @@ color: rgb(255, 255, 255);</string>
    <widget class="QPushButton" name="btn_icv">
     <property name="geometry">
      <rect>
-      <x>265</x>
+      <x>260</x>
       <y>5</y>
       <width>30</width>
       <height>30</height>
@@ -698,7 +698,7 @@ color: rgb(255, 255, 255);</string>
    <widget class="QPushButton" name="btn_idev">
     <property name="geometry">
      <rect>
-      <x>305</x>
+      <x>295</x>
       <y>5</y>
       <width>30</width>
       <height>30</height>
@@ -706,6 +706,19 @@ color: rgb(255, 255, 255);</string>
     </property>
     <property name="toolTip">
      <string>Ir a la web de la Infraestructura Valenciana de Datos Espaciales </string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_help">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>12</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
     </property>
     <property name="text">
      <string/>
@@ -729,6 +742,7 @@ color: rgb(255, 255, 255);</string>
    <zorder>txt_info_capa</zorder>
    <zorder>btn_icv</zorder>
    <zorder>btn_idev</zorder>
+   <zorder>btn_help</zorder>
   </widget>
  </widget>
  <resources/>
