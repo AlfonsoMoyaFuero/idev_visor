@@ -17,6 +17,7 @@ Installation:
 It can be invoked from the QGIS repository or it can be downloaded from this portal by copying it into the QGIS plugin folder. To find out which folder contains the add-ons, it can be consulted from QGIS through the menu "Configuration" / "User profiles" / "Open the folder of the active profile". Inside this folder there is a directory "plugins" which is where the plugins that are loaded when starting QGIS are located. This is also the folder where the add-ons downloaded through the add-on manager are copied, invoked from the "Add-ons" / "Manage and install add-ons" menu.
    
 =========================================================================================================================================================================
+
 La Infraestructura Valenciana de Datos Espaciales (IDEV) se crea con el objetivo de integrar la información geográfica de la Generalitat y hacerlas accesibles a través de internet desde un mismo portal, incorporando infraestructuras y servicios interoperables de información geográfica.
 Se puede acceder a la IDEV en http://www.idev.gva.es/
 
