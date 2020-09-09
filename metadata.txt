@@ -20,6 +20,9 @@ hasProcessingProvider=no
 # Uncomment the following line and add your changelog:
 changelog=
     ** General **
+	0.4:
+		- Update layer list
+		- Clear the toponymic help text when get the focus 
 	0.3:
 		- Disable metadata in when there is no information
 		- Update services list
