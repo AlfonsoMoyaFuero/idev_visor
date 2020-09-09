@@ -6,7 +6,7 @@
 name=IDEV
 qgisMinimumVersion=3.0
 description=Non Official plugin about Infraestrutura Valenciana de Datos Espaciales (IDEV)
-version=0.3
+version=0.4
 author=Alfonso Moya Fuero
 email=moya_alf@gva.es
 about=Infraestructura Valenciana de Dades Espacials. The Valencian Spatial Data Infrastructure (IDEV) was created with the aim of integrating the geographic information of the Generalitat and making it accessible through the internet from the same portal, incorporating interoperable geographic information infrastructures and services. http://www.idev.gva.es/
