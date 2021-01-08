@@ -3038,5 +3038,1349 @@
     "aviso_val": "",
     "metadato": "spa_icv_orde_mapa_pendientes",
     "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=1&styles&url=http://carto.icv.gva.es/arcgis/services/tm_infraestructuras/ordenacion_territorial/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Estaciones de referencia",
+    "nombre_val": "Estacions de referència",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_estaciones_meteo_validadas_cv",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=118&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Precipitación acumulada anual [mm]",
+    "nombre_val": "Precipitació acumulada anual [mm]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_PMM",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=117&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Temperatura media anual [C]",
+    "nombre_val": "Temperatura mitjana anual [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_T",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=116&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Temperatura mínima anual [C]",
+    "nombre_val": "Temperatura mínima anual [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=115&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Temperatura máxima anual [C]",
+    "nombre_val": "Temperatura màxima anual [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMAX",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=114&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Temperatura media de las mínimas anual [C]",
+    "nombre_val": "Temperatura mitjana de les mínimes anual [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=113&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Temperatura media de las máximas anual [C]",
+    "nombre_val": "Temperatura mitjana de les màximes anual [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMAX",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=112&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Prec. primavera [mm]",
+    "nombre_val": "Prec. primavera [mm]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_PMM",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=110&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Prec. verano [mm]",
+    "nombre_val": "Prec. estiu [mm]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_PMM",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=109&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Prec. otoño [mm]",
+    "nombre_val": "Prec. tardor [mm]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_PMM",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=108&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Prec. invierno [mm]",
+    "nombre_val": "Prec. hivern [mm]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_PMM",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=107&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media primavera [c]",
+    "nombre_val": "Ta mitjana primavera [c]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_T",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=105&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media verano [c]",
+    "nombre_val": "Ta mitjana estiu [c]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_T",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=104&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media otoño [c]",
+    "nombre_val": "Ta mitjana tardor [c]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_T",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=103&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media invierno [c]",
+    "nombre_val": "Ta mitjana hivern [c]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_T",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=102&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta mínima primavera [c]",
+    "nombre_val": "Ta mínima primavera [c]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=100&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta mínima verano [c]",
+    "nombre_val": "Ta mínima estiu [c]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=99&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta mínima otoño [c]",
+    "nombre_val": "Ta mínima tardor [c]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=98&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta mínima invierno [c]",
+    "nombre_val": "Ta mínima hivern [c]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=97&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta máxima primavera [c]",
+    "nombre_val": "Ta màxima primavera [c]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMAX",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=95&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta máxima verano [c]",
+    "nombre_val": "Ta màxima estiu [c]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMAX",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=94&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta máxima otoño [c]",
+    "nombre_val": "Ta màxima tardor [c]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMAX",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=93&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta máxima invierno [c]",
+    "nombre_val": "Ta màxima hivern [c]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMAX",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=92&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las mínimas primavera [c]",
+    "nombre_val": "Ta mitjana de les mínimes primavera [c]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=90&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las mínimas verano [c]",
+    "nombre_val": "Ta mitjana de les mínimes estiu [c]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=89&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las mínimas otoño [c]",
+    "nombre_val": "Ta mitjana de les mínimes tardor [c]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=88&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las mínimas invierno [c]",
+    "nombre_val": "Ta mitjana de les mínimes hivern [c]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=87&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las máximas primavera [c]",
+    "nombre_val": "Ta mitjana de les màximes primavera [c]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMAX",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=85&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las máximas verano [c]",
+    "nombre_val": "Ta mitjana de les màximes estiu [c]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMAX",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=84&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las máximas otoño [c]",
+    "nombre_val": "Ta mitjana de les màximes tardor [c]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMAX",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=83&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las máximas invierno [c]",
+    "nombre_val": "Ta mitjana de les màximes hivern [c]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMAX",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=82&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Prec. enero [mm]",
+    "nombre_val": "Prec. gener [mm]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_PMM",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=79&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Prec. febrero [mm]",
+    "nombre_val": "Prec. febrer [mm]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_PMM",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=78&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Prec. marzo [mm]",
+    "nombre_val": "Prec. març [mm]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_PMM",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=77&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Prec. abril [mm]",
+    "nombre_val": "Prec. abril [mm]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_PMM",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=76&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Prec. mayo [mm]",
+    "nombre_val": "Prec. maig [mm]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_PMM",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=75&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Prec. junio [mm]",
+    "nombre_val": "Prec. juny [mm]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_PMM",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=74&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Prec. julio [mm]",
+    "nombre_val": "Prec. juliol [mm]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_PMM",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=73&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Prec. agosto [mm]",
+    "nombre_val": "Prec. agost [mm]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_PMM",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=72&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Prec. septiembre [mm]",
+    "nombre_val": "Prec. setembre [mm]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_PMM",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=71&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Prec. octubre [mm]",
+    "nombre_val": "Prec. octubre [mm]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_PMM",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=71&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Prec. noviembre [mm]",
+    "nombre_val": "Prec. novembre [mm]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_PMM",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=69&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Prec. diciembre [mm]",
+    "nombre_val": "Prec. desembre [mm]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_PMM",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=68&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media enero [C]",
+    "nombre_val": "Ta mitjana gener [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_T",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=66&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media febrero [C]",
+    "nombre_val": "Ta mitjana febrer [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_T",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=65&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media marzo [C]",
+    "nombre_val": "Ta mitjana març [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_T",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=64&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media abril [C]",
+    "nombre_val": "Ta mitjana abril [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_T",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=63&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media mayo [C]",
+    "nombre_val": "Ta mitjana maig [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_T",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=62&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media junio [C]",
+    "nombre_val": "Ta mitjana juny [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_T",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=61&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media julio [C]",
+    "nombre_val": "Ta mitjana juliol [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_T",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=60&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media agosto [C]",
+    "nombre_val": "Ta mitjana agost [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_T",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=59&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media septiembre [C]",
+    "nombre_val": "Ta mitjana setembre [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_T",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=58&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media octubre [C]",
+    "nombre_val": "Ta mitjana octubre [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_T",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=57&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media noviembre [C]",
+    "nombre_val": "Ta mitjana novembre [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_T",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=56&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media diciembre [C]",
+    "nombre_val": "Ta mitjana desembre [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_T",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=55&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta mínima enero [C]",
+    "nombre_val": "Ta mínima gener [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=53&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta mínima febrero [C]",
+    "nombre_val": "Ta mínima febrer [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=52&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta mínima marzo [C]",
+    "nombre_val": "Ta mínima març [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=51&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta mínima abril [C]",
+    "nombre_val": "Ta mínima abril [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=50&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta mínima mayo [C]",
+    "nombre_val": "Ta mínima maig [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=49&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta mínima junio [C]",
+    "nombre_val": "Ta mínima juny [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=48&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta mínima julio [C]",
+    "nombre_val": "Ta mínima juliol [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=47&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta mínima agosto [C]",
+    "nombre_val": "Ta mínima agost [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=46&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta mínima septiembre [C]",
+    "nombre_val": "Ta mínima setembre [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=45&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta mínima octubre [C]",
+    "nombre_val": "Ta mínima octubre [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=44&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta mínima noviembre [C]",
+    "nombre_val": "Ta mínima novembre [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=43&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta mínima diciembre [C]",
+    "nombre_val": "Ta mínima desembre [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=42&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta máxima enero [C]",
+    "nombre_val": "Ta màxima gener [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=40&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta máxima febrero [C]",
+    "nombre_val": "Ta màxima febrer [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=39&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta máxima marzo [C]",
+    "nombre_val": "Ta màxima març [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=38&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta máxima abril [C]",
+    "nombre_val": "Ta màxima abril [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=37&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta máxima mayo [C]",
+    "nombre_val": "Ta màxima maig [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=36&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta máxima junio [C]",
+    "nombre_val": "Ta màxima juny [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=35&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta máxima julio [C]",
+    "nombre_val": "Ta màxima juliol [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=34&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta máxima agosto [C]",
+    "nombre_val": "Ta màxima agost [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=33&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta máxima septiembre [C]",
+    "nombre_val": "Ta màxima setembre [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=32&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta máxima octubre [C]",
+    "nombre_val": "Ta màxima octubre [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=31&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta máxima noviembre [C]",
+    "nombre_val": "Ta màxima novembre [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=30&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta máxima diciembre [C]",
+    "nombre_val": "Ta màxima desembre [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=29&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las mínimas enero [C]",
+    "nombre_val": "Ta mitjana de les mínimes gener [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=27&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las mínimas febrero [C]",
+    "nombre_val": "Ta mitjana de les mínimes febrer [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=26&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las mínimas marzo [C]",
+    "nombre_val": "Ta mitjana de les mínimes març [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=25&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las mínimas abril [C]",
+    "nombre_val": "Ta mitjana de les mínimes abril [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=24&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las mínimas mayo [C]",
+    "nombre_val": "Ta mitjana de les mínimes maig [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=23&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las mínimas junio [C]",
+    "nombre_val": "Ta mitjana de les mínimes juny [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=22&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las mínimas julio [C]",
+    "nombre_val": "Ta mitjana de les mínimes juliol [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=21&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las mínimas agosto [C]",
+    "nombre_val": "Ta mitjana de les mínimes agost [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=20&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las mínimas septiembre [C]",
+    "nombre_val": "Ta mitjana de les mínimes setembre [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=19&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las mínimas octubre [C]",
+    "nombre_val": "Ta mitjana de les mínimes octubre [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=18&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las mínimas noviembre [C]",
+    "nombre_val": "Ta mitjana de les mínimes novembre [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=17&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las mínimas diciembre [C]",
+    "nombre_val": "Ta mitjana de les mínimes desembre [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMIN",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=16&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las máximas enero [C]",
+    "nombre_val": "Ta mitjana de les màximes gener [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMAX",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=14&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las máximas febrero [C]",
+    "nombre_val": "Ta mitjana de les màximes febrer [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMAX",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=13&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las máximas marzo [C]",
+    "nombre_val": "Ta mitjana de les màximes març [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMAX",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=12&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las máximas abril [C]",
+    "nombre_val": "Ta mitjana de les màximes abril [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMAX",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=11&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las máximas mayo [C]",
+    "nombre_val": "Ta mitjana de les màximes maig [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMAX",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=10&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las máximas junio [C]",
+    "nombre_val": "Ta mitjana de les màximes juny [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMAX",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=9&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las máximas julio [C]",
+    "nombre_val": "Ta mitjana de les màximes juliol [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMAX",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=8&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las máximas agosto [C]",
+    "nombre_val": "Ta mitjana de les màximes agost [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMAX",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=7&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las máximas septiembre [C]",
+    "nombre_val": "Ta mitjana de les màximes setembre [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMAX",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=6&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las máximas octubre [C]",
+    "nombre_val": "Ta mitjana de les màximes octubre [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMAX",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=5&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las máximas noviembre [C]",
+    "nombre_val": "Ta mitjana de les màximes novembre [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMAX",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=4&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Ta media de las máximas diciembre [C]",
+    "nombre_val": "Ta mitjana de les màximes desembre [C]",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_TMMAX",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=3&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Cuadrícula de referencia",
+    "nombre_val": "Quadrícula de referència",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atlas_clima_datosclima",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=0&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/atlas_climatico_cv/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Boca cavidad - Plan de recuperación del Murciélago Ratonero Patudo y Murciélago Mediano de Herradura",
+    "nombre_val": "Boca cavitat - Pla de recuperació de la rata penada de peus grans i rata penada de ferradura mitjana",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_biod_plan_recuperacion_murcielagos_boca_cavidad",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=53&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Áreas refugio- Plan de recuperación del Murciélago Ratonero Patudo y Murciélago Mediano de Herradura",
+    "nombre_val": "Àrees refugie - Pla de recuperació de la rata penada de peus grans i rata penada de ferradura mitjana",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_biod_plan_recuperacion_murcielagos_areas_refugio",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=52&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Áreas de conservación del Plan de recuperación del Fartet",
+    "nombre_val": "Àrees de conservació del Pla de recuperació del Fartet",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_biod_plan_recuperacion_areas_cons_fartet",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=50&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Áreas de recuperación del Plan de recuperación del Fartet",
+    "nombre_val": "Àrees de recuperació del Pla de recuperació del Fartet",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_biod_plan_recuperacion_areas_recu_fartet",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=49&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Áreas de conservación de la Silene hifacensis",
+    "nombre_val": "Àrees de conservació de la Silene hifacensis",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_biod_plan_recuperacion_recup_silene_cons",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=47&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Áreas de conservación del Cistus heterophyllus",
+    "nombre_val": "Àrees de conservació del Cistus heterophyllus",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_biod_plan_recuperacion_recup_cistus_cons",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=46&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Plan de recuperación de la Gaviota de Audouin",
+    "nombre_val": "Pla de recuperació de la gavina corsa",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_biod_plan_recuperacion_gavina_corsa",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=44&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Áreas de conservación del Limohium perplexum",
+    "nombre_val": "Àrees de conservació del Limohium perplexum",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_biod_plan_recuperacion_recup_limonium_cons",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=45&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Plan de recuperación del Samaruc",
+    "nombre_val": "Pla de recuperació del Samaruc",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_biod_plan_recuperacion_samaruc",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=43&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Plan de recuperación de la Malvasia Cabeciblanca",
+    "nombre_val": "Pla de recuperació de l'ànec capblanc",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_biod_plan_recuperacion_malvasia",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=42&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Áreas de conservación del Aguilucho lagunero",
+    "nombre_val": "Àrees de conservació de l'arpella de marjal",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_biod_plan_recuperacion_recup_aguilagu_cons",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=41&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Áreas de recuperación del Aguilucho lagunero",
+    "nombre_val": "Àrees de recuperació de l'arpella de marjal",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_biod_plan_recuperacion_recup_aguilagu_recu",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=40&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Plan de recuperación del Avetoro",
+    "nombre_val": "Pla de recuperació del vítol",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_biod_plan_recuperacion_recup_avetoro_recu",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=38&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Áreas de recuperación de la Cerceta pardilla",
+    "nombre_val": "Àrees de recuperació de la rosseta",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_biod_plan_recuperacion_recup_avetoro_recu",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=37&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Áreas de conservación de la Cerceta pardilla",
+    "nombre_val": "Àrees de conservació de la rosseta",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_biod_plan_recuperacion_recup_cercetapar_cons",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=37&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Áreas de conservación del Escribano palustre",
+    "nombre_val": "Àrees de conservació del teuladí de canyar",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_biod_plan_recuperacion_recup_escribanopa_cons",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=34&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Áreas de recuperación del Escribano palustre",
+    "nombre_val": "Àrees de recuperació del teuladí de canyar",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_biod_plan_recuperacion_recup_escribanopa_recu",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=33&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Reservas de fauna",
+    "nombre_val": "Reserves de fauna",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_biod_reservas_de_fauna",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=30&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Microrreservas",
+    "nombre_val": "Microreserves",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_biod_microrreservas",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=29&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Áreas prioritarias",
+    "nombre_val": "Àrees prioritàries",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_biod_areas_prioritarias",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=16&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "ZEPA",
+    "nombre_val": "ZEPA",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_eepp_zepas",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=15&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Marcos cartografía Recintos vegetación",
+    "nombre_val": "Marcs cartografia recintes vegetació",
+    "aviso_cas": "<b>Flora protegida:</b> En esta capa se muestran los recintos de máxima precisión disponibles para cada planta en cuestión dentro de las cuadrículas UTM de 1 km correspondientes. Aunque en un lugar concreto no se muestre ningún recinto de planta protegida, esto no quiere decir que no puedan estar presentes. Se recomienda utilizar esta capa consultando a la vez la información existente en el Banco de Datos de Biodiversidad de la Comunidad Valenciana.<BR><b>Hábitats 1:10.000:</b> Cada recinto puede contener un máximo de tres hábitats. La representación se hace por el hábitat de mayor cobertura.",
+    "aviso_val": "<b>Flora protegida:</b> En esta capa es mostren els recintes de màxima precisió disponibles per a cada planta en qüestió dins de les quadrícules UTM d'1 km corresponents. Encara que en un lloc concret no es mostre cap recinte de planta protegida, açò no vol dir que no puguen estar presents. Es recomana utilitzar esta capa consultant al mateix temps la informació existent en el Banc de Dades de Biodiversitat de la Comunitat Valenciana. <BR><b>Hàbitats 1:10.000:</b> Cada recinte pot contindre un màxim de tres hàbitats. La representació es fa per l'hàbitat de major cobertura.",
+    "metadato": "spa_icv_biod_marcos_habitats",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=13&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Recintos vegetación",
+    "nombre_val": "Recintes vegetació",
+    "aviso_cas": "<b>Flora protegida:</b> En esta capa se muestran los recintos de máxima precisión disponibles para cada planta en cuestión dentro de las cuadrículas UTM de 1 km correspondientes. Aunque en un lugar concreto no se muestre ningún recinto de planta protegida, esto no quiere decir que no puedan estar presentes. Se recomienda utilizar esta capa consultando a la vez la información existente en el Banco de Datos de Biodiversidad de la Comunidad Valenciana.<BR><b>Hábitats 1:10.000:</b> Cada recinto puede contener un máximo de tres hábitats. La representación se hace por el hábitat de mayor cobertura.",
+    "aviso_val": "<b>Flora protegida:</b> En esta capa es mostren els recintes de màxima precisió disponibles per a cada planta en qüestió dins de les quadrícules UTM d'1 km corresponents. Encara que en un lloc concret no es mostre cap recinte de planta protegida, açò no vol dir que no puguen estar presents. Es recomana utilitzar esta capa consultant al mateix temps la informació existent en el Banc de Dades de Biodiversitat de la Comunitat Valenciana. <BR><b>Hàbitats 1:10.000:</b> Cada recinte pot contindre un màxim de tres hàbitats. La representació es fa per l'hàbitat de major cobertura.",
+    "metadato": "spa_icv_biod_habitats10000",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=12&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Marcos cartografía LPEHT",
+    "nombre_val": "Marcs cartografia LPEHT",
+    "aviso_cas": "<b>Flora protegida:</b> En esta capa se muestran los recintos de máxima precisión disponibles para cada planta en cuestión dentro de las cuadrículas UTM de 1 km correspondientes. Aunque en un lugar concreto no se muestre ningún recinto de planta protegida, esto no quiere decir que no puedan estar presentes. Se recomienda utilizar esta capa consultando a la vez la información existente en el Banco de Datos de Biodiversidad de la Comunidad Valenciana.<BR><b>Hábitats 1:10.000:</b> Cada recinto puede contener un máximo de tres hábitats. La representación se hace por el hábitat de mayor cobertura.",
+    "aviso_val": "<b>Flora protegida:</b> En esta capa es mostren els recintes de màxima precisió disponibles per a cada planta en qüestió dins de les quadrícules UTM d'1 km corresponents. Encara que en un lloc concret no es mostre cap recinte de planta protegida, açò no vol dir que no puguen estar presents. Es recomana utilitzar esta capa consultant al mateix temps la informació existent en el Banc de Dades de Biodiversitat de la Comunitat Valenciana. <BR><b>Hàbitats 1:10.000:</b> Cada recinte pot contindre un màxim de tres hàbitats. La representació es fa per l'hàbitat de major cobertura.",
+    "metadato": "spa_icv_biod_marcos_habitats",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=10&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Hábitats LPEHT",
+    "nombre_val": "Hàbitats LPEHT",
+    "aviso_cas": "<b>Flora protegida:</b> En esta capa se muestran los recintos de máxima precisión disponibles para cada planta en cuestión dentro de las cuadrículas UTM de 1 km correspondientes. Aunque en un lugar concreto no se muestre ningún recinto de planta protegida, esto no quiere decir que no puedan estar presentes. Se recomienda utilizar esta capa consultando a la vez la información existente en el Banco de Datos de Biodiversidad de la Comunidad Valenciana.<BR><b>Hábitats 1:10.000:</b> Cada recinto puede contener un máximo de tres hábitats. La representación se hace por el hábitat de mayor cobertura.",
+    "aviso_val": "<b>Flora protegida:</b> En esta capa es mostren els recintes de màxima precisió disponibles per a cada planta en qüestió dins de les quadrícules UTM d'1 km corresponents. Encara que en un lloc concret no es mostre cap recinte de planta protegida, açò no vol dir que no puguen estar presents. Es recomana utilitzar esta capa consultant al mateix temps la informació existent en el Banc de Dades de Biodiversitat de la Comunitat Valenciana. <BR><b>Hàbitats 1:10.000:</b> Cada recinte pot contindre un màxim de tres hàbitats. La representació es fa per l'hàbitat de major cobertura.",
+    "metadato": "spa_icv_biod_habitats10000",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=9&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Marcos cartografía interés comunitario",
+    "nombre_val": "Marcs cartografia interés comunitari",
+    "aviso_cas": "<b>Flora protegida:</b> En esta capa se muestran los recintos de máxima precisión disponibles para cada planta en cuestión dentro de las cuadrículas UTM de 1 km correspondientes. Aunque en un lugar concreto no se muestre ningún recinto de planta protegida, esto no quiere decir que no puedan estar presentes. Se recomienda utilizar esta capa consultando a la vez la información existente en el Banco de Datos de Biodiversidad de la Comunidad Valenciana.<BR><b>Hábitats 1:10.000:</b> Cada recinto puede contener un máximo de tres hábitats. La representación se hace por el hábitat de mayor cobertura.",
+    "aviso_val": "<b>Flora protegida:</b> En esta capa es mostren els recintes de màxima precisió disponibles per a cada planta en qüestió dins de les quadrícules UTM d'1 km corresponents. Encara que en un lloc concret no es mostre cap recinte de planta protegida, açò no vol dir que no puguen estar presents. Es recomana utilitzar esta capa consultant al mateix temps la informació existent en el Banc de Dades de Biodiversitat de la Comunitat Valenciana. <BR><b>Hàbitats 1:10.000:</b> Cada recinte pot contindre un màxim de tres hàbitats. La representació es fa per l'hàbitat de major cobertura.",
+    "metadato": "spa_icv_biod_marcos_habitats",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=7&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Hábitats interés comunitario",
+    "nombre_val": "Hàbitats interés comunitari",
+    "aviso_cas": "<b>Flora protegida:</b> En esta capa se muestran los recintos de máxima precisión disponibles para cada planta en cuestión dentro de las cuadrículas UTM de 1 km correspondientes. Aunque en un lugar concreto no se muestre ningún recinto de planta protegida, esto no quiere decir que no puedan estar presentes. Se recomienda utilizar esta capa consultando a la vez la información existente en el Banco de Datos de Biodiversidad de la Comunidad Valenciana.<BR><b>Hábitats 1:10.000:</b> Cada recinto puede contener un máximo de tres hábitats. La representación se hace por el hábitat de mayor cobertura.",
+    "aviso_val": "<b>Flora protegida:</b> En esta capa es mostren els recintes de màxima precisió disponibles per a cada planta en qüestió dins de les quadrícules UTM d'1 km corresponents. Encara que en un lloc concret no es mostre cap recinte de planta protegida, açò no vol dir que no puguen estar presents. Es recomana utilitzar esta capa consultant al mateix temps la informació existent en el Banc de Dades de Biodiversitat de la Comunitat Valenciana. <BR><b>Hàbitats 1:10.000:</b> Cada recinte pot contindre un màxim de tres hàbitats. La representació es fa per l'hàbitat de major cobertura.",
+    "metadato": "spa_icv_biod_marcos_habitats",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=6&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Hábitats 1:50.000",
+    "nombre_val": "Hàbitats 1:50.000",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_biod_habitats",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=3&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Cuadrícula 10x10 km",
+    "nombre_val": "Quadrícula 10x10 km",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_cuad_utm_10x10_biodiversidad",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=2&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Cuadrícula 1x1 km",
+    "nombre_val": "Quadrícula 1x1 km",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_cuad_utm_1x1",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=1&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/biodiversidad/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "1- Instalaciones de combustión",
+    "nombre_val": "1- Instal·lacions de combustió",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atmo_centros_aut_ambiental",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=69&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/calidad_ambiental/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "2- Producción y transformación de metales",
+    "nombre_val": "2- Producció i transformació de metalls",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atmo_centros_aut_ambiental",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=64&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/calidad_ambiental/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "3- Industrias minerales",
+    "nombre_val": "3- Indústries minerals",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atmo_centros_aut_ambiental",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=59&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/calidad_ambiental/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "4- Industrias químicas",
+    "nombre_val": "4- Indústries químiques",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atmo_centros_aut_ambiental",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=54&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/calidad_ambiental/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "5- Gestión de residuos",
+    "nombre_val": "5- Gestió de residus",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atmo_centros_aut_ambiental",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=49&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/calidad_ambiental/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "6- Industria del papel y cartón",
+    "nombre_val": "6- Indústria del paper i cartó",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atmo_centros_aut_ambiental",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=44&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/calidad_ambiental/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "7- Industria textil",
+    "nombre_val": "7- Indústria tèxtil",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atmo_centros_aut_ambiental",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=39&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/calidad_ambiental/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "8- Industria del cuero",
+    "nombre_val": "8- Indústria del cuir",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atmo_centros_aut_ambiental",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=34&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/calidad_ambiental/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "9- Industrias agroalimentarias y explotaciones ganaderas",
+    "nombre_val": "9- Indústries agroalimentàries i explotacions ramaderes",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atmo_centros_aut_ambiental",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=29&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/calidad_ambiental/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "10- Consumo de disolventes orgánicos",
+    "nombre_val": "10- Consum de dissolvents orgànics",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atmo_centros_aut_ambiental",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=24&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/calidad_ambiental/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "11- Industria del carbono",
+    "nombre_val": "11- Indústria del carboni",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atmo_centros_aut_ambiental",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=19&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/calidad_ambiental/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Red de vigilancia y control de la contaminación atmosférica",
+    "nombre_val": "Xarxa de vigilància i control de la contaminació atmosfèrica",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atmo_calidad_estaciones",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=15&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/calidad_ambiental/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Estaciones de ozono",
+    "nombre_val": "Estacions d'ozó",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atmo_calidad_estaciones",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=14&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/calidad_ambiental/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Zonas de calidad del aire",
+    "nombre_val": "Zones de qualitat de l'aire",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atmo_calidad_zonas_cv",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=13&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/calidad_ambiental/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Plan de mejora de calidad del aire",
+    "nombre_val": "Pla de millora de qualitat de l'aire",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atmo_calidad_municipios_cont_amb",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=12&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/calidad_ambiental/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Plan de mejora para PM10",
+    "nombre_val": "Pla de millora per a PM10",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atmo_calidad_municipios_cont_amb",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=11&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/calidad_ambiental/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Plan de mejora para NO2",
+    "nombre_val": "Pla de millora per a NO2",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atmo_calidad_municipios_cont_amb",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=10&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/calidad_ambiental/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Municipios con obligación declarar (PAM)",
+    "nombre_val": "Municipis amb obligació declarar (PAM)",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atmo_ruidos_municipios_pam_obligado",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=8&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/calidad_ambiental/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Municipios con PAM aprobado",
+    "nombre_val": "Municipis amb PAM aprovat",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atmo_ruido_municipios_cont_acus",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=7&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/calidad_ambiental/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Municipios con PAM remitido a la Conselleria",
+    "nombre_val": "Municipis amb PAM remés a la Conselleria",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atmo_ruido_municipios_cont_acus",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=6&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/calidad_ambiental/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "ZAS declaradas",
+    "nombre_val": "ZAS declarades",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atmo_ruido_municipios_cont_acus",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=4&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/calidad_ambiental/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Propuestas de ZAS remitidas a la Conselleria",
+    "nombre_val": "Propostes de ZAS remeses a la Conselleria",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_atmo_ruido_municipios_cont_acus",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=3&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/calidad_ambiental/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Espacios cinegéticos",
+    "nombre_val": "Espais cinegètics",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_caype_caza_eecc",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=15&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/cazaypesca/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Espacios no cinegéticos",
+    "nombre_val": "Espais no cinegètics",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_caype_caza_eencc",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=14&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/cazaypesca/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Municipios afectados por daños de conejo",
+    "nombre_val": "Municipis afectats per danys de conill",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_caype_caza_danyos_conejo",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=13&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/cazaypesca/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Area afección municipios afectados por daños de conejo",
+    "nombre_val": "Àrea afecció municipis afectats per danys de conill",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_caype_caza_danyos_conejo_afec",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=12&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/cazaypesca/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Control del Arruí",
+    "nombre_val": "Control de l'arruí",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_caype_caza_arrui",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=11&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/cazaypesca/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Indice calidad ambiental ríos trucheros",
+    "nombre_val": "Índex qualitat ambiental rius truiters",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_caype_pesca_calidad_rios_truch",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=9&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/cazaypesca/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Cotos de pesca",
+    "nombre_val": "Vedats de pesca",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_caype_pesca",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=8&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/cazaypesca/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Reserva anguila (ríos y azarbes)",
+    "nombre_val": "Reserva anguila (rius i assarbs)",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_caype_pesca_reserva_anguila_lin",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=7&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/cazaypesca/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Reserva anguila (marjales)",
+    "nombre_val": "Reserva anguila (marjals)",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_caype_pesca_reserva_anguila_pol",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=6&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/cazaypesca/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Oncorhynchus mykiss",
+    "nombre_val": "Oncorhynchus mykiss",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_caype_pesca_invasoras_oncorhynchus",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=4&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/cazaypesca/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Micropterus salmoides",
+    "nombre_val": "Micropterus salmoides",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_caype_pesca_invasoras_micropterus",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=3&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/cazaypesca/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Procambarus clarkii",
+    "nombre_val": "Procambarus clarkii",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_caype_pesca_invasoras_procambarus",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=2&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/cazaypesca/MapServer/WmsServer?"
   }
 ]
