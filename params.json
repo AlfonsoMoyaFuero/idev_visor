@@ -4382,5 +4382,413 @@
     "aviso_val": "",
     "metadato": "spa_icv_caype_pesca_invasoras_procambarus",
     "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=2&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/cazaypesca/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Estaciones",
+    "nombre_val": "Estacions",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_avamet_estaciones",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=0&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/avamet/MapServer/WmsServer"
+  },
+  {
+	"nombre_cas": "Equipamientos de aducación ambiental",
+    "nombre_val": "Equipaments d'educació ambiental",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_eduamb_equipamientos",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=4&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/educacion_ambiental/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Entidades adheridas a la guía de EA",
+    "nombre_val": "Entitats adherides a la guia d'EA",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_eduamb_entidades",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=1&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/educacion_ambiental/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Catálogo de cuevas",
+    "nombre_val": "Catàleg de coves",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_eepp_cuevas",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=24&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/espacios_protegidos/MapServer/WmsServer"
+  },
+  {
+	"nombre_cas": "Monumentos Naturales ",
+    "nombre_val": "Monuments naturals ",
+    "aviso_cas": "La delimitación aquí reflejada de los espacios naturales protegidos, tiene carácter informativo. Las delimitaciones oficiales constan en los respectivos Decretos de declaración de los espacios protegidos.<BR>La delimitación de los LIC y ZEPA es la oficial reconocida por la Comisión Europea en la actualidad. Existen ciertas LIC que posteriormente son declaradas ZEC, por lo que se remite a consultar esta capa en su caso.",
+    "aviso_val": "La delimitació ací reflectida dels espais naturals protegits, té caràcter informatiu. Les delimitacions oficials consten en els respectius decrets de declaració dels espais protegits.<BR>La delimitació dels LIC i ZEPA és l'oficial reconeguda per la Comissió Europea en l'actualitat. Hi ha certes LIC que posteriorment són declarades ZEC, per la qual cosa es remet a consultar esta capa si és el cas.",
+    "metadato": "spa_icv_eepp_monumentos_naturales",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=23&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/espacios_protegidos/MapServer/WmsServer"
+  },
+  {
+	"nombre_cas": "Zona de amortiguación de monumentos",
+    "nombre_val": "Zona d'amortiment de monuments",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_eepp_mon_naturales_amortiguacion",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=22&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/espacios_protegidos/MapServer/WmsServer"
+  },
+  {
+	"nombre_cas": "Marca Parcs Naturals",
+    "nombre_val": "Marca Parcs Naturals",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_eepp_marca_parcs",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=20&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/espacios_protegidos/MapServer/WmsServer"
+  },
+  {
+	"nombre_cas": "Centros de información",
+    "nombre_val": "Centres d'informació",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_eepp_centros_informacion",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=19&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/espacios_protegidos/MapServer/WmsServer"
+  },
+  {
+	"nombre_cas": "Paradas de los Parques Naturales",
+    "nombre_val": "Parades dels Parcs Naturals",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_eepp_paradas_parques",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=18&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/espacios_protegidos/MapServer/WmsServer"
+  },
+  {
+	"nombre_cas": "Rutas de los Parques Naturales",
+    "nombre_val": "Rutas dels Parcs Naturals",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_eepp_rutas_parques",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=17&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/espacios_protegidos/MapServer/WmsServer"
+  },
+  {
+	"nombre_cas": "Parques Naturales   ",
+    "nombre_val": "Parcs Naturals   ",
+    "aviso_cas": "La delimitación aquí reflejada de los espacios naturales protegidos, tiene carácter informativo. Las delimitaciones oficiales constan en los respectivos Decretos de declaración de los espacios protegidos.<BR>La delimitación de los LIC y ZEPA es la oficial reconocida por la Comisión Europea en la actualidad. Existen ciertas LIC que posteriormente son declaradas ZEC, por lo que se remite a consultar esta capa en su caso.",
+    "aviso_val": "La delimitació ací reflectida dels espais naturals protegits, té caràcter informatiu. Les delimitacions oficials consten en els respectius decrets de declaració dels espais protegits.<BR>La delimitació dels LIC i ZEPA és l'oficial reconeguda per la Comissió Europea en l'actualitat. Hi ha certes LIC que posteriorment són declarades ZEC, per la qual cosa es remet a consultar esta capa si és el cas.",
+    "metadato": "spa_icv_eepp_parques_naturales",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=16&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/espacios_protegidos/MapServer/WmsServer"
+  },
+  {
+	"nombre_cas": "Reservas Naturales",
+    "nombre_val": "Reserves Naturals",
+    "aviso_cas": "La delimitación aquí reflejada de los espacios naturales protegidos, tiene carácter informativo. Las delimitaciones oficiales constan en los respectivos Decretos de declaración de los espacios protegidos.<BR>La delimitación de los LIC y ZEPA es la oficial reconocida por la Comisión Europea en la actualidad. Existen ciertas LIC que posteriormente son declaradas ZEC, por lo que se remite a consultar esta capa en su caso.",
+    "aviso_val": "La delimitació ací reflectida dels espais naturals protegits, té caràcter informatiu. Les delimitacions oficials consten en els respectius decrets de declaració dels espais protegits.<BR>La delimitació dels LIC i ZEPA és l'oficial reconeguda per la Comissió Europea en l'actualitat. Hi ha certes LIC que posteriorment són declarades ZEC, per la qual cosa es remet a consultar esta capa si és el cas.",
+    "metadato": "spa_icv_eepp_reservas_naturales",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=14&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/espacios_protegidos/MapServer/WmsServer"
+  },
+  {
+	"nombre_cas": "Zonas Húmedas",
+    "nombre_val": "Zones Humides",
+    "aviso_cas": "La delimitación aquí reflejada de los espacios naturales protegidos, tiene carácter informativo. Las delimitaciones oficiales constan en los respectivos Decretos de declaración de los espacios protegidos.<BR>La delimitación de los LIC y ZEPA es la oficial reconocida por la Comisión Europea en la actualidad. Existen ciertas LIC que posteriormente son declaradas ZEC, por lo que se remite a consultar esta capa en su caso.",
+    "aviso_val": "La delimitació ací reflectida dels espais naturals protegits, té caràcter informatiu. Les delimitacions oficials consten en els respectius decrets de declaració dels espais protegits.<BR>La delimitació dels LIC i ZEPA és l'oficial reconeguda per la Comissió Europea en l'actualitat. Hi ha certes LIC que posteriorment són declarades ZEC, per la qual cosa es remet a consultar esta capa si és el cas.",
+    "metadato": "spa_icv_eepp_zonas_humedas",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=13&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/espacios_protegidos/MapServer/WmsServer"
+  },
+  {
+	"nombre_cas": "Zonas de Protección Zonas Húmedas",
+    "nombre_val": "Zones de protecció Zones Humides",
+    "aviso_cas": "La delimitación aquí reflejada de los espacios naturales protegidos, tiene carácter informativo. Las delimitaciones oficiales constan en los respectivos Decretos de declaración de los espacios protegidos.<BR>La delimitación de los LIC y ZEPA es la oficial reconocida por la Comisión Europea en la actualidad. Existen ciertas LIC que posteriormente son declaradas ZEC, por lo que se remite a consultar esta capa en su caso.",
+    "aviso_val": "La delimitació ací reflectida dels espais naturals protegits, té caràcter informatiu. Les delimitacions oficials consten en els respectius decrets de declaració dels espais protegits.<BR>La delimitació dels LIC i ZEPA és l'oficial reconeguda per la Comissió Europea en l'actualitat. Hi ha certes LIC que posteriorment són declarades ZEC, per la qual cosa es remet a consultar esta capa si és el cas.",
+    "metadato": "spa_icv_eepp_zonas_humedas_influencia",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=12&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/espacios_protegidos/MapServer/WmsServer"
+  },
+  {
+	"nombre_cas": "Parajes Naturales Municipales ",
+    "nombre_val": "Paratges naturals municipals ",
+    "aviso_cas": "La delimitación aquí reflejada de los espacios naturales protegidos, tiene carácter informativo. Las delimitaciones oficiales constan en los respectivos Decretos de declaración de los espacios protegidos.<BR>La delimitación de los LIC y ZEPA es la oficial reconocida por la Comisión Europea en la actualidad. Existen ciertas LIC que posteriormente son declaradas ZEC, por lo que se remite a consultar esta capa en su caso.",
+    "aviso_val": "La delimitació ací reflectida dels espais naturals protegits, té caràcter informatiu. Les delimitacions oficials consten en els respectius decrets de declaració dels espais protegits.<BR>La delimitació dels LIC i ZEPA és l'oficial reconeguda per la Comissió Europea en l'actualitat. Hi ha certes LIC que posteriorment són declarades ZEC, per la qual cosa es remet a consultar esta capa si és el cas.",
+    "metadato": "spa_icv_eepp_parajes_municipales",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=8&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/espacios_protegidos/MapServer/WmsServer"
+  },
+  {
+	"nombre_cas": "Rutas - Parajes Naturales Municipales",
+    "nombre_val": "Rutes - Paratges naturals municipals",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_eepp_parajes_municipales_rutas",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=9&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/espacios_protegidos/MapServer/WmsServer"
+  },
+  {
+	"nombre_cas": "Elementos de interés - Parajes Naturales Municipales",
+    "nombre_val": "Elements d'interés - Paratges naturals municipals",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_eepp_parajes_municipales_elementos",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=10&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/espacios_protegidos/MapServer/WmsServer"
+  },
+  {
+	"nombre_cas": "Paisajes Protegidos ",
+    "nombre_val": "Paisatges Protegits ",
+    "aviso_cas": "La delimitación aquí reflejada de los espacios naturales protegidos, tiene carácter informativo. Las delimitaciones oficiales constan en los respectivos Decretos de declaración de los espacios protegidos.<BR>La delimitación de los LIC y ZEPA es la oficial reconocida por la Comisión Europea en la actualidad. Existen ciertas LIC que posteriormente son declaradas ZEC, por lo que se remite a consultar esta capa en su caso.",
+    "aviso_val": "La delimitació ací reflectida dels espais naturals protegits, té caràcter informatiu. Les delimitacions oficials consten en els respectius decrets de declaració dels espais protegits.<BR>La delimitació dels LIC i ZEPA és l'oficial reconeguda per la Comissió Europea en l'actualitat. Hi ha certes LIC que posteriorment són declarades ZEC, per la qual cosa es remet a consultar esta capa si és el cas.",
+    "metadato": "spa_icv_eepp_paisajes_protegidos",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=6&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/espacios_protegidos/MapServer/WmsServer"
+  },
+  {
+	"nombre_cas": "Zonificación Norma Gestión",
+    "nombre_val": "Zonificació norma gestió",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_eepp_rn2000_norma_gestion",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=4&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/espacios_protegidos/MapServer/WmsServer"
+  },
+  {
+	"nombre_cas": "ZEC",
+    "nombre_val": "ZEC",
+    "aviso_cas": "La delimitación aquí reflejada de los espacios naturales protegidos, tiene carácter informativo. Las delimitaciones oficiales constan en los respectivos Decretos de declaración de los espacios protegidos.<BR>La delimitación de los LIC y ZEPA es la oficial reconocida por la Comisión Europea en la actualidad. Existen ciertas LIC que posteriormente son declaradas ZEC, por lo que se remite a consultar esta capa en su caso.",
+    "aviso_val": "La delimitació ací reflectida dels espais naturals protegits, té caràcter informatiu. Les delimitacions oficials consten en els respectius decrets de declaració dels espais protegits.<BR>La delimitació dels LIC i ZEPA és l'oficial reconeguda per la Comissió Europea en l'actualitat. Hi ha certes LIC que posteriorment són declarades ZEC, per la qual cosa es remet a consultar esta capa si és el cas.",
+    "metadato": "spa_icv_eepp_zecs",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=3&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/espacios_protegidos/MapServer/WmsServer"
+  },
+  {
+	"nombre_cas": "LIC",
+    "nombre_val": "LIC",
+    "aviso_cas": "La delimitación aquí reflejada de los espacios naturales protegidos, tiene carácter informativo. Las delimitaciones oficiales constan en los respectivos Decretos de declaración de los espacios protegidos.<BR>La delimitación de los LIC y ZEPA es la oficial reconocida por la Comisión Europea en la actualidad. Existen ciertas LIC que posteriormente son declaradas ZEC, por lo que se remite a consultar esta capa en su caso.",
+    "aviso_val": "La delimitació ací reflectida dels espais naturals protegits, té caràcter informatiu. Les delimitacions oficials consten en els respectius decrets de declaració dels espais protegits.<BR>La delimitació dels LIC i ZEPA és l'oficial reconeguda per la Comissió Europea en l'actualitat. Hi ha certes LIC que posteriorment són declarades ZEC, per la qual cosa es remet a consultar esta capa si és el cas.",
+    "metadato": "spa_icv_eepp_lics",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=2&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/espacios_protegidos/MapServer/WmsServer"
+  },
+  {
+	"nombre_cas": "ZEPA ",
+    "nombre_val": "ZEPA ",
+    "aviso_cas": "La delimitación aquí reflejada de los espacios naturales protegidos, tiene carácter informativo. Las delimitaciones oficiales constan en los respectivos Decretos de declaración de los espacios protegidos.<BR>La delimitación de los LIC y ZEPA es la oficial reconocida por la Comisión Europea en la actualidad. Existen ciertas LIC que posteriormente son declaradas ZEC, por lo que se remite a consultar esta capa en su caso.",
+    "aviso_val": "La delimitació ací reflectida dels espais naturals protegits, té caràcter informatiu. Les delimitacions oficials consten en els respectius decrets de declaració dels espais protegits.<BR>La delimitació dels LIC i ZEPA és l'oficial reconeguda per la Comissió Europea en l'actualitat. Hi ha certes LIC que posteriorment són declarades ZEC, per la qual cosa es remet a consultar esta capa si és el cas.",
+    "metadato": "spa_icv_eepp_zepas",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=1&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/espacios_protegidos/MapServer/WmsServer"
+  },
+  {
+	"nombre_cas": "Árboles",
+    "nombre_val": "Arbres",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_fore_arboles_mon",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=32&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/forestal/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Protección",
+    "nombre_val": "Protecció",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_fore_arboles_mon_buf",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=30&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/forestal/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Diques",
+    "nombre_val": "Dics",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_fore_obras_hidro_diques",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=28&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/forestal/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Muros",
+    "nombre_val": "Murs",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_fore_obras_hidro_muros",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=27&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/forestal/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Bancales",
+    "nombre_val": "Bancals",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_fore_obras_hidro_bancales",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=26&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/forestal/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Demarcaciones forestales",
+    "nombre_val": "Demarcacions forestals",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_fore_patfor_demarcaciones_forest",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=24&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/forestal/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Elementos pecuarios",
+    "nombre_val": "Elements pecuaris",
+    "aviso_cas": "La cartografía de vías pecuarias, plantaciones forestales temporales y montes gestionados por la Conselleria sólo tiene carácter informativo.",
+    "aviso_val": "La cartografia de vies pecuàries, plantacions forestals temporals i forests gestionades per la Conselleria només té caràcter informatiu.",
+    "metadato": "spa_icv_fore_vias_pecuarias_elem",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=23&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/forestal/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Vías pecuarias",
+    "nombre_val": "Vies pecuàries",
+    "aviso_cas": "La cartografía de vías pecuarias, plantaciones forestales temporales y montes gestionados por la Conselleria sólo tiene carácter informativo.",
+    "aviso_val": "La cartografia de vies pecuàries, plantacions forestals temporals i forests gestionades per la Conselleria només té caràcter informatiu.",
+    "metadato": "spa_icv_fore_vias_pecuarias",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=22&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/forestal/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Reposiciones",
+    "nombre_val": "Reposicions",
+    "aviso_cas": "La cartografía de vías pecuarias, plantaciones forestales temporales y montes gestionados por la Conselleria sólo tiene carácter informativo.",
+    "aviso_val": "La cartografia de vies pecuàries, plantacions forestals temporals i forests gestionades per la Conselleria només té caràcter informatiu.",
+    "metadato": "spa_icv_fore_vias_pecuarias_adif",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=21&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/forestal/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Límites",
+    "nombre_val": "Limits",
+    "aviso_cas": "La cartografía de vías pecuarias, plantaciones forestales temporales y montes gestionados por la Conselleria sólo tiene carácter informativo.",
+    "aviso_val": "La cartografia de vies pecuàries, plantacions forestals temporals i forests gestionades per la Conselleria només té caràcter informatiu.",
+    "metadato": "spa_icv_fore_vias_pecuarias_limites",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=20&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/forestal/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Instalaciones recreativas",
+    "nombre_val": "Instal·lacions recreatives",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_fore_instalaciones_recreativas",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=18&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/forestal/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Senderos",
+    "nombre_val": "Senders",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_fore_senderos",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=17&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/forestal/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Sendero sobre la Vía Augusta",
+    "nombre_val": "Sender sobre la Via Augusta",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_fore_via_augusta",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=16&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/forestal/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Plantaciones forestales temporales",
+    "nombre_val": "Plantacions forestals temporals",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_fore_plantaciones_fores_temp_g",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=14&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/forestal/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Transformacions autorizadas",
+    "nombre_val": "Transformacions autoritzades",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_fore_transf_agr_autorizadas",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=13&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/forestal/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Fincas patrimoniales",
+    "nombre_val": "Finques patrimonials",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_fore_fincas_patrimoniales",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=11&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/forestal/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Construcciones forestales",
+    "nombre_val": "Construccions forestals",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_fore_constru_forestales",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=10&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/forestal/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Montes gestionados por la Conselleria",
+    "nombre_val": "Forest getionats per la Conselleria",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_fore_montes_gestionados",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=9&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/forestal/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Fuentes semilleras",
+    "nombre_val": "Fonts llavoreres",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_fore_rodales_selectos",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=7&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/forestal/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Rodales selectos",
+    "nombre_val": "Rodals selectes",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_fore_rodales_selectos",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=7&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/forestal/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Regiones de procedencia - Método divisivo",
+    "nombre_val": "Regions de procedència - Mètode divisiu",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_fore_banc_procedencias_subrpdivisivo",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=6&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/forestal/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Subregiones de procedencia - Método divisivo",
+    "nombre_val": "Subregions de procedència - Mètode divisiu",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_fore_banc_procedencias_subrpdivisivo",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=5&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/forestal/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Subregiones de procedencia - Especies de Ribera",
+    "nombre_val": "Subregions de procedència - Espècies de Ribera",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_fore_procedencias_subrptaxaribera",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=4&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/forestal/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Mapa forestal de España escala 1:50.000",
+    "nombre_val": "Mapa forestal d'Espanya escala 1:50.000",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_fore_mfe50",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=2&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/forestal/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Inventario forestal nacional Nº 3",
+    "nombre_val": "Inventari forestal nacional Nº 3",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_fore_ifn3",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=1&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/forestal/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Límite P.O.R.N. - Chera-Sot de Chera",
+    "nombre_val": "Límit P.O.R.N. - Chera-Sot de Chera",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_eepp_limite_porn",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=203&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/espacios_protegidos_inst/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Límite Parque Natural - Chera-Sot de Chera",
+    "nombre_val": "Límit Parc Natural - Chera-Sot de Chera",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_eepp_parques_naturales",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=202&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/espacios_protegidos_inst/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Zonificación P.O.R.N. - Chera-Sot de Chera",
+    "nombre_val": "Zonificació P.O.R.N. - Chera-Sot de Chera",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_parq_chera_porn_zonificacion",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=201&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/espacios_protegidos_inst/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Límite P.O.R.N. - Montgó",
+    "nombre_val": "Límit P.O.R.N. - Montgó",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_eepp_limite_porn",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=199&styles&url=http://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/espacios_protegidos_inst/MapServer/WmsServer?"
   }
 ]
