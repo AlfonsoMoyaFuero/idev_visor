@@ -1169,6 +1169,10 @@ class IdevDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
             orto.setText(0, "Ortofotos e Imágenes")
             oortoRGB = QTreeWidgetItem(orto)
             oortoRGB.setText(0, "Ortofotos RGB")
+            orto2020 = QTreeWidgetItem(oortoRGB)
+            orto2020.setFlags(orto2020.flags() | Qt.ItemIsUserCheckable)
+            orto2020.setText(0, "Año 2020")
+            orto2020.setCheckState(0, Qt.Unchecked)
             orto2019 = QTreeWidgetItem(oortoRGB)
             orto2019.setFlags(orto2019.flags() | Qt.ItemIsUserCheckable)
             orto2019.setText(0, "Año 2019")
@@ -1259,6 +1263,10 @@ class IdevDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
             orto1956.setCheckState(0, Qt.Unchecked)
             oortoIRG = QTreeWidgetItem(orto)
             oortoIRG.setText(0, "Ortofotos IRG")
+            orto2020ir = QTreeWidgetItem(oortoIRG)
+            orto2020ir.setFlags(orto2020ir.flags() | Qt.ItemIsUserCheckable)
+            orto2020ir.setText(0, "Año 2020 - IRG")
+            orto2020ir.setCheckState(0, Qt.Unchecked)
             orto2009ir = QTreeWidgetItem(oortoIRG)
             orto2009ir.setFlags(orto2009ir.flags() | Qt.ItemIsUserCheckable)
             orto2009ir.setText(0, "Año 2009 prov. Castellón - IRG")
@@ -4215,6 +4223,10 @@ class IdevDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
             orto.setText(0, "Ortofotos i Imatges")
             oortoRGB = QTreeWidgetItem(orto)
             oortoRGB.setText(0, "Ortofotos RGB")
+            orto2020 = QTreeWidgetItem(oortoRGB)
+            orto2020.setFlags(orto2020.flags() | Qt.ItemIsUserCheckable)
+            orto2020.setText(0, "Any 2020")
+            orto2020.setCheckState(0, Qt.Unchecked)
             orto2019 = QTreeWidgetItem(oortoRGB)
             orto2019.setFlags(orto2019.flags() | Qt.ItemIsUserCheckable)
             orto2019.setText(0, "Any 2019")
@@ -4305,6 +4317,10 @@ class IdevDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
             orto1956.setCheckState(0, Qt.Unchecked)
             oortoIRG = QTreeWidgetItem(orto)
             oortoIRG.setText(0, "Ortofotos IRG")
+            orto2020ir = QTreeWidgetItem(oortoIRG)
+            orto2020ir.setFlags(orto2020ir.flags() | Qt.ItemIsUserCheckable)
+            orto2020ir.setText(0, "Any 2020 - IRG")
+            orto2020ir.setCheckState(0, Qt.Unchecked)
             orto2009ir = QTreeWidgetItem(oortoIRG)
             orto2009ir.setFlags(orto2009ir.flags() | Qt.ItemIsUserCheckable)
             orto2009ir.setText(0, "Any 2009 prov. Castelló - IRG")
@@ -6657,7 +6673,7 @@ class IdevDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
 """ We define the dictionary of layers outside the functions so that it is accessible in all """
 
 path_capas_json = os.path.dirname(os.path.realpath(__file__)) + '/params.json' # Path of the JSON file with the definition of each layer
-with open(path_capas_json, "r") as read_file:  # Read the JSON file
+with open(path_capas_json, mode='r', encoding='utf-8') as read_file:  # Read the JSON file
     capasIDEV = json.load(read_file)  # Store in a dictionary the JSON file, each element is a layer
 
 

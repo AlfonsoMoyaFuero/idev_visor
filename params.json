@@ -1040,6 +1040,14 @@
     "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=cv&styles&url=http://terramapas.icv.gva.es/linies_limit"
   },
   {
+	"nombre_cas": "Año 2020",
+    "nombre_val": "Any 2020",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicv0202_2020CVAL0025",
+    "url": "crs=EPSG:3857&dpiMode=7&format=image/png;%20mode%3D8bit&layers=01_8bits_01_RGB_05_PNG&styles&tileMatrixSet=01_8bits_01_RGB_05_PNG-wmsc-1&url=https://terramapas.icv.gva.es/odcv05_etrs89h30_2020_3857/"
+  },
+  {
 	"nombre_cas": "Año 2019",
     "nombre_val": "Any 2019",
     "aviso_cas": "",
@@ -1214,6 +1222,14 @@
     "aviso_val": "",
     "metadato": "spaicv0202_1956AMSB0050",
     "url": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=01_8bits_04_PAN_05_PNG&styles&url=http://terramapas.icv.gva.es/odcv10_etrs89h30_1956_3857"
+  },
+  {
+	"nombre_cas": "Año 2020 - IRG",
+    "nombre_val": "Any 2020 - IRG",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicv0202_2020CVAL0025",
+    "url": "crs=EPSG:3857&dpiMode=7&format=image/png;%20mode%3D8bit&layers=01_8bits_03_IRG_05_PNG&styles&tileMatrixSet=01_8bits_03_IRG_05_PNG-wmsc-0&url=https://terramapas.icv.gva.es/odcv05_etrs89h30_2020_3857/"
   },
   {
 	"nombre_cas": "Año 2009 prov. Castellón - IRG",
