@@ -1040,12 +1040,20 @@
     "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=cv&styles&url=http://terramapas.icv.gva.es/linies_limit"
   },
   {
+	"nombre_cas": "Año 2021 (orto rápida)",
+    "nombre_val": "Any 2021 ((orto ràpida)",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicv0202_2021CVAL0025",
+    "url": "crs=EPSG:3857&dpiMode=7&format=image/png;%20mode%3D8bit&layers=01_8bits_01_RGB_05_PNG&styles&tileMatrixSet=01_8bits_01_RGB_05_PNG-wmsc-0&url=https://terramapas.icv.gva.es/odcv05_etrs89h30_2021_3857_orto_rapida"
+  },
+  {
 	"nombre_cas": "Año 2020",
     "nombre_val": "Any 2020",
     "aviso_cas": "",
     "aviso_val": "",
     "metadato": "spaicv0202_2020CVAL0025",
-    "url": "crs=EPSG:3857&dpiMode=7&format=image/png;%20mode%3D8bit&layers=01_8bits_01_RGB_05_PNG&styles&tileMatrixSet=01_8bits_01_RGB_05_PNG-wmsc-1&url=https://terramapas.icv.gva.es/odcv05_etrs89h30_2020_3857/"
+    "url": "crs=EPSG:3857&dpiMode=7&format=image/png;%20mode%3D8bit&layers=01_8bits_01_RGB_05_PNG&styles&tileMatrixSet=01_8bits_01_RGB_05_PNG-wmsc-0&url=https://terramapas.icv.gva.es/odcv05_etrs89h30_2020_3857/"
   },
   {
 	"nombre_cas": "Año 2019",
@@ -1229,7 +1237,7 @@
     "aviso_cas": "",
     "aviso_val": "",
     "metadato": "spaicv0202_2020CVAL0025",
-    "url": "crs=EPSG:3857&dpiMode=7&format=image/png;%20mode%3D8bit&layers=01_8bits_03_IRG_05_PNG&styles&tileMatrixSet=01_8bits_03_IRG_05_PNG-wmsc-0&url=https://terramapas.icv.gva.es/odcv05_etrs89h30_2020_3857/"
+    "url": "crs=EPSG:3857&dpiMode=7&format=image/png;%20mode%3D8bit&layers=01_8bits_03_IRG_05_PNG&styles&tileMatrixSet=01_8bits_03_IRG_05_PNG-wmsc-1&url=https://terramapas.icv.gva.es/odcv05_etrs89h30_2020_3857/"
   },
   {
 	"nombre_cas": "Año 2009 prov. Castellón - IRG",
@@ -1278,6 +1286,70 @@
     "aviso_val": "",
     "metadato": "spaicv0202_2005PCAS0050",
     "url": "crs=EPSG:3857&dpiMode=7&format=image/png&layers=01_8bits_03_IRG_05_PNG&styles&url=https://terramapas.icv.gva.es/odcv10_etrs89h30_2005PCAS_3857"
+  },
+  {
+	"nombre_cas": "20210311 RGB",
+    "nombre_val": "20210311 RGB",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicv0204_20210311CVAL",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=Sentinel2_20210311_RGB&styles&url=https://terramapas.icv.gva.es/sentinel2"
+  },
+  {
+    "nombre_cas": "20210311 IRG",
+      "nombre_val": "20210311 IRG",
+      "aviso_cas": "",
+      "aviso_val": "",
+      "metadato": "spaicv0204_20210311CVAL",
+      "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=Sentinel2_20210311_IRG&styles&url=https://terramapas.icv.gva.es/sentinel2"
+  },
+  {
+	"nombre_cas": "20210614 RGB",
+    "nombre_val": "20210614 RGB",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicv0204_20210614CVAL",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=Sentinel2_20210614_RGB&styles&url=https://terramapas.icv.gva.es/sentinel2"
+  },
+  {
+    "nombre_cas": "20210614 IRG",
+      "nombre_val": "20210614 IRG",
+      "aviso_cas": "",
+      "aviso_val": "",
+      "metadato": "spaicv0204_20210614CVAL",
+      "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=Sentinel2_20210614_IRG&styles&url=https://terramapas.icv.gva.es/sentinel2"
+  },
+  {
+	"nombre_cas": "20201101 RGB",
+    "nombre_val": "20201101 RGB",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicv0204_20201101CVAL",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=Sentinel2_20201101_RGB&styles&url=https://terramapas.icv.gva.es/sentinel2"
+  },
+  {
+	"nombre_cas": "20201101 IRG",
+    "nombre_val": "20201101 IRG",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicv0204_20201101CVAL",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=Sentinel2_20201101_IRG&styles&url=https://terramapas.icv.gva.es/sentinel2"
+  },
+  {
+	"nombre_cas": "20200808 RGB",
+    "nombre_val": "20200808 RGB",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicv0204_20200808CVAL",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=Sentinel2_20200808_RGB&styles&url=https://terramapas.icv.gva.es/sentinel2"
+  },
+  {
+	"nombre_cas": "20200808 IRG",
+    "nombre_val": "20200808 IRG",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicv0204_20200808CVAL",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=Sentinel2_20200808_IRG&styles&url=https://terramapas.icv.gva.es/sentinel2"
   },
   {
 	"nombre_cas": "20200311 RGB",
@@ -1686,6 +1758,14 @@
     "aviso_val": "",
     "metadato": "spa_icv_agua_vulne_munis",
     "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=1&styles&url=https://carto.icv.gva.es/arcgis/services/tm_medio_ambiente/aguas/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Praderas de fanerógamas marinos",
+    "nombre_val": "Prades de fanerògames marins",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicv_agua_marino_praderas_fanerogamas",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=Praderas_Fanerogamas&styles&url=https://terramapas.icv.gva.es/ma_agua_ambito_marino"
   },
   {
 	"nombre_cas": "Parcelas 2020",
